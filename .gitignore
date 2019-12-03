@@ -1,0 +1,16 @@
+.DS_Store
+env/
+*.egg-info/
+build/
+dist/
+.tmp/
+__pycache__/
+tmp_env/
+*.d2v
+.env
+.coverage
+mlruns/
+docs/_build/
+generated/
+*.npz
+*.pkl
