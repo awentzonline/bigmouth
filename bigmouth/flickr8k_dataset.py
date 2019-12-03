@@ -111,6 +111,6 @@ class PreprocessedFlickr8k(Flickr8k):
             caption_arr = self.caption_transform(caption)
             self._caption_cache[index] = caption_arr
         img_arr = self._img_cache[index]
-        caption_vec = self._caption_cache[index]
+        caption_arr = self._caption_cache[index]
         z, classes = self.gan_encodings[row.path]
         return img_arr, z, classes, caption_arr
